@@ -19,3 +19,16 @@ Eureka is the Netflix Service Discovery Server and Client. The server can be con
 ```shell
 ./gradlew --info check
 ```
+
+### Usage
+
+```yaml
+services:
+  service-registry:
+    image: ishin/service-registry:latest
+  environment:
+    - SERVER_PORT=8761
+    - SPRING_SECURITY_USER_NAME=admin
+    - SPRING_SECURITY_USER_PASSWORD=admin
+    - "JAVA_OPTS=-Xms512m -Xmx1024m -XX:+UseG1GC"
+```
