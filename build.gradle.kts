@@ -1,16 +1,16 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    id("org.springframework.boot") version "3.2.5"
-    id("io.spring.dependency-management") version "1.1.4"
+    id("org.springframework.boot") version "3.3.0"
+    id("io.spring.dependency-management") version "1.1.5"
     id("org.jmailen.kotlinter") version "4.3.0"
     id("com.gorylenko.gradle-git-properties") version "2.4.2"
-    kotlin("jvm") version "1.9.23"
-    kotlin("plugin.spring") version "1.9.23"
+    kotlin("jvm") version "1.9.24"
+    kotlin("plugin.spring") version "1.9.24"
 }
 
 group = "io.github.ishinlab"
-version = "0.0.1"
+version = "0.0.2"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
