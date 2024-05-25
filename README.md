@@ -25,7 +25,7 @@ Eureka is the Netflix Service Discovery Server and Client. The server can be con
 ```yaml
 services:
   service-registry:
-    image: ishin/service-registry:latest
+    image: ishinvin/service-registry:latest
   environment:
     - SERVER_PORT=8761
     - SPRING_SECURITY_USER_NAME=admin
